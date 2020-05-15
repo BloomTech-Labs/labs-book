@@ -8,8 +8,6 @@ time to time.
 
 ## Objective
 
-### Summary
-
 We will walk through the basic steps of starting and finishing a feature or
 task in git and github.com.
 
@@ -17,6 +15,11 @@ task in git and github.com.
 
 - git cli
 - github.com Pull Requests
+
+### References
+
+- [git-scm.com](https://git-scm.com/)
+- [Github Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 ## Getting Started
 
@@ -39,7 +42,8 @@ can easily make sense of it.
 
 > git checkout -b [new_branch_name]
 
-![Starting a new branch](/img/git-workflow-basic/git-checkout-1.png "start a new branch")
+![Starting a new branch](../assets/images/git-workflow-basic/git-checkout-1.png
+"start a new branch")
 
 ## Sharing Is Good
 
@@ -61,7 +65,8 @@ or
     to your git config. Yay. Now you can easily push your commits to the remote
     branch by git push. Easy.
 
-![push new branch to remote](/img/git-workflow-basic/git-push-1.png "pushing new branch to remote")
+![push new branch to remote](../assets/images/git-workflow-basic/git-push-1.png
+"pushing new branch to remote")
 
 The next step is to create a draft PR *(Pull Request)* **after you’ve created
 your first commit**. Github created this mode so that notifications will be
@@ -73,10 +78,11 @@ it good.
 
 Making sure to use the template to provide a professional description
 (seriously copy the description from the trello card, right) summarizing the
-actual work in the PR, let’s create a PR using the **staging** branch as the
+actual work in the PR, let’s create a PR using the **master** branch as the
 **base**.
 
-![github draft PR](/img/git-workflow-basic/github-draft-pr.gif "github draft PR")
+![github draft PR](../assets/images/git-workflow-basic/github-draft-pr.gif
+"github draft PR")
 
 ## We have lift off
 
@@ -95,7 +101,8 @@ When you feel you’ve completed the task you’ve been working on it’s time t
 update the description, take the PR out of draft mode and make it **“ready
 for review”**.
 
-![make PR ready for review](/img/git-workflow-basic/github-ready-pr.png "Make PR ready for review")
+![make PR ready for review](../assets/images/git-workflow-basic/github-ready-pr.png
+"Make PR ready for review")
 
 And just like that, the team will be notified of the PR and they can start
 a review and it can be merged.
@@ -107,42 +114,21 @@ a review and it can be merged.
 It’s really good practice to take the time to make comments in the code, even
 if they are positive notes on good work your teammate did.
 
-## Using your stage before returning to master
+## QA changes on stage before merging to master
 
-Even though you branched off of master your PR was created using stage as
-the base. If there are no conflicts to be resolved choose “Rebase and merge”
-from the merge button and lets get our QA started.
+Since you branched off of master your PR should be tested on stage prior
+to approving and merging. If there are no issues found on stage and no
+conflicts to be resolved in the code choose “Rebase and merge” or "Squash
+and merge" from the merge button and lets get onto master.
 
-![merge into master](/img/git-workflow-basic/github-merge.png "Rebase and merge into master")
+![merge into master](../assets/images/git-workflow-basic/github-merge.png
+"Rebase and merge into master")
 
 If you find yourself with a merge conflict there are a number of ways to solve
 it. The github tools are very handy or you can do it locally. When going down
 the local path there is a good set of instructions at
 [About pull request merges](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges)
 
-Deploy to your staging environment if you don’t have automatic deployment
-setup. You and the team can now Qa the app walking through as many scenarios
-as possible, making sure there aren’t any unintended reactions from the rest
-of the code/system.
-
-## Heading home
-
-When QA has been successful, it’s time to merge to master and deploy. Given
-that changes may have occurred due to hotfixes (or team members that have
-committed directly on master, you have permission to slap them 🤬)
-**rebase** master into your branch.
-
-> git rebase master
-
-Alternatively you can use --interactive if you have commits that you’d like
-to **squash**.
-
-> git checkout master
->
-> git merge staging
->
-> git push
-
 And now your code changes are on the master branch, ready to wow users with
-your updates. Deploy your code and be ready to support any issues that
-arise.
+your updates. Deploy your code (if not automatically handled by github events)
+and be ready to support any issues that arise.
