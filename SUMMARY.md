@@ -13,4 +13,3 @@
 ## Design
 
 * [Home](design/home.md)
-
