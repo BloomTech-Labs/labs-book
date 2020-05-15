@@ -31,13 +31,13 @@ to have any funds available.
 [Heroku docs on custom domains](https://devcenter.heroku.com/articles/custom-domains)
 
 {% hint style="info" %}
-    DNS stands for Dynamic Name System.
+**DNS** stands for **Dynamic Name System**.
 
-    Domain names are resolved using what is known as nameservers. Nameservers are
-    servers that match domain names with targets (IP addresses). Nameservers allow
-    users to visit [google.com](http://google.com) from anywhere in the world and
-    be connected to a google server geographically close to the user. The actual
-    IP address can changes, but the domain name doesn't.
+Domain names are resolved using what is known as nameservers. Nameservers are
+servers that match domain names with targets (IP addresses). Nameservers allow
+users to visit [google.com](http://google.com) from anywhere in the world and
+be connected to a google server geographically close to the user. The actual
+IP address can changes, but the domain name doesn't.
 {% endhint %}
 
 ## Getting Started
@@ -73,11 +73,11 @@ Use this template for submitting custom domain requests to your SL.
 
 #### Example
 
-    ```text
-    Domain Name:
-    Name Servers:
-    1.
-    2.
-    3.
-    4.
-    ```
+```text
+Domain Name:
+Name Servers:
+1.
+2.
+3.
+4.
+```
