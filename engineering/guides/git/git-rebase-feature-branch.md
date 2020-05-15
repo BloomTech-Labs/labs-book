@@ -44,9 +44,11 @@ repository, such as github; doing so will cause conflicts and confusion.
   
 4. Now we can rebase the feature branch onto `master`
 
-    > git rebase master
-      First, rewinding head to replay your work on top of it...
-      Applying: added staged command
+   ```bash
+   > git rebase master
+     First, rewinding head to replay your work on top of it...
+     Applying: added staged command
+   ```
 
 5. Your commits will now show in the git log after the commits merged from
    master
