@@ -6,8 +6,6 @@ description: >-
 
 # Guides
 
-## Guides
-
 The guides will be divided into separate categories. A category corresponds to a specific area of concern found in the Labs experience. The categories can all be viewed in the menu.
 
 ### Completeness <a id="completeness"></a>
