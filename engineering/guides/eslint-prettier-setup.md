@@ -30,10 +30,11 @@ Make sure every team member has
 and [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 VS Code extension's installed.
 
-!!! Info
-    It's recommended to turn format on save on. Click on prettier link above and
-    search for "Format On Save" for instructions on setting that up in vs code.
-    Also, check out section "Linter Integration". 🔥
+{% hint style="info" %}
+It's recommended to turn format on save on. Click on prettier link above and
+search for "Format On Save" for instructions on setting that up in vs code.
+Also, check out section "Linter Integration". 🔥
+{% endhint %}
 
 ## Configure ESLint and Prettier
 
@@ -43,10 +44,11 @@ In the root of your project's directory run;
 `yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier`
 or `npm i eslint prettier eslint-config-prettier eslint-plugin-prettier`.
 
-!!! Note
-    For react apps, add `eslint-plugin-react` to dependencies as well!
-    Then we can add a file named `.eslintrc.js` with the following content for a
-    react app.
+{% hint style="info" %}
+For react apps, add `eslint-plugin-react` to dependencies as well!
+Then we can add a file named `.eslintrc.js` with the following content for a
+react app.
+{% endhint %}
 
 ### Example React Config
 
