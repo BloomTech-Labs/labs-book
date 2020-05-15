@@ -26,7 +26,6 @@ task in git and github.com.
 So you're ready to start work on a new trello card, Lets get started
 
 {% hint style="info" %}
-
 Obviously you can't do anything with git until you’ve cloned the team repo.
 After that always make sure you start with a recent copy of the repo.
 
@@ -45,8 +44,7 @@ can easily make sense of it.
 
 > git checkout -b [new_branch_name]
 
-![Starting a new branch](../../.gitbook/assets/git-workflow-basic/git-checkout-1.png
-"start a new branch")
+![Starting a new branch](../../../.gitbook/assets/git-workflow-basic/git-checkout-1.png)
 
 ## Sharing Is Good
 
@@ -64,14 +62,12 @@ or
 > git push --set-upstream origin ${git_current_branch}
 
 {% hint style="info" %}
-
 The -u (--set-upstream) will save the tracking info for the remote branch
 to your git config. Yay. Now you can easily push your commits to the remote
 branch by git push. Easy.
 {% endhint %}
 
-![push new branch to remote](../../.gitbook/assets/git-workflow-basic/git-push-1.png
-"pushing new branch to remote")
+![push new branch to remote](../../../.gitbook/assets/git-workflow-basic/git-push-1.png)
 
 The next step is to create a draft PR *(Pull Request)* **after you’ve created
 your first commit**. Github created this mode so that notifications will be
@@ -86,8 +82,7 @@ Making sure to use the template to provide a professional description
 actual work in the PR, let’s create a PR using the **master** branch as the
 **base**.
 
-![github draft PR](../../.gitbook/assets/git-workflow-basic/github-draft-pr.gif
-"github draft PR")
+![github draft PR](../../../.gitbook/assets/git-workflow-basic/github-draft-pr.gif)
 
 ## We have lift off
 
@@ -107,8 +102,7 @@ When you feel you’ve completed the task you’ve been working on it’s time t
 update the description, take the PR out of draft mode and make it **“ready
 for review”**.
 
-![make PR ready for review](../../.gitbook/assets/git-workflow-basic/github-ready-pr.png
-"Make PR ready for review")
+![make PR ready for review](../../../.gitbook/assets/git-workflow-basic/github-ready-pr.png)
 
 And just like that, the team will be notified of the PR and they can start
 a review and it can be merged.
@@ -128,8 +122,7 @@ to approving and merging. If there are no issues found on stage and no
 conflicts to be resolved in the code choose “Rebase and merge” or "Squash
 and merge" from the merge button and lets get onto master.
 
-![merge into master](../../.gitbook/assets/git-workflow-basic/github-merge.png
-"Rebase and merge into master")
+![merge into master](../../../.gitbook/assets/git-workflow-basic/github-merge.png)
 
 If you find yourself with a merge conflict there are a number of ways to solve
 it. The github tools are very handy or you can do it locally. When going down
