@@ -8,6 +8,7 @@
 * [Standards](engineering/standards.md)
 * [Guides](engineering/guides/README.md)
   * [Writing Standards](engineering/guides/writing-standards.md)
+  * [Trello Integration](engineering/guides/github-trello-integration.md)
 
 ## Design
 
