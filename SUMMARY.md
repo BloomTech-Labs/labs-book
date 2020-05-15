@@ -9,3 +9,7 @@
 * [Guides](engineering/guides/README.md)
   * [Writing Standards](engineering/guides/writing-standards.md)
 
+## Design
+
+* [Home](design/home.md)
+
