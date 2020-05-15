@@ -1,4 +1,4 @@
-# Writing Standards
+# Guide Standards
 
 {% hint style="info" %}
 If you add, remove or change the name of a topic document, be sure to update the `mkdocs.yml` file `Topics` section
