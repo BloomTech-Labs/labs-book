@@ -11,10 +11,10 @@ Establish a path to adding a custom domain for projects hosted on Heroku for
 free while remaining Labs Compliant.
 
 {% hint style="info" %}
-    Heroku requires a credit card on file to activate PointDNS (as well as to
-    support more than 3-4 apps at a time). PointDNS is free but it does need to
-    be an actual credit card. The card will not be charged; it doesn't even have
-    to have any funds available.
+Heroku requires a credit card on file to activate PointDNS (as well as to
+support more than 3-4 apps at a time). PointDNS is free but it does need to
+be an actual credit card. The card will not be charged; it doesn't even have
+to have any funds available.
 {% endhint %}
 
 ### Technologies
