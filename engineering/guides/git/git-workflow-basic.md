@@ -25,14 +25,17 @@ task in git and github.com.
 
 So you're ready to start work on a new trello card, Lets get started
 
-!!! Info
-    Obviously you can't do anything with git until you’ve cloned the team repo.
-    After that always make sure you start with a recent copy of the repo.
+{% hint style="info" %}
 
-    ```
-    > git checkout master
-    > git pull origin master
-    ```
+Obviously you can't do anything with git until you’ve cloned the team repo.
+After that always make sure you start with a recent copy of the repo.
+
+```bash
+> git checkout master
+> git pull origin master
+```
+
+{% endhint %}
 
 So to get started on your first task let’s make a branch. Making sure you are
 on the **master** branch, start a new branch with a name that matches or correlates
@@ -42,7 +45,7 @@ can easily make sense of it.
 
 > git checkout -b [new_branch_name]
 
-![Starting a new branch](../assets/images/git-workflow-basic/git-checkout-1.png
+![Starting a new branch](../../.gitbook/assets/git-workflow-basic/git-checkout-1.png
 "start a new branch")
 
 ## Sharing Is Good
@@ -60,12 +63,14 @@ or
 
 > git push --set-upstream origin ${git_current_branch}
 
-!!! Info
-    The -u (--set-upstream) will save the tracking info for the remote branch
-    to your git config. Yay. Now you can easily push your commits to the remote
-    branch by git push. Easy.
+{% hint style="info" %}
 
-![push new branch to remote](../assets/images/git-workflow-basic/git-push-1.png
+The -u (--set-upstream) will save the tracking info for the remote branch
+to your git config. Yay. Now you can easily push your commits to the remote
+branch by git push. Easy.
+{% endhint %}
+
+![push new branch to remote](../../.gitbook/assets/git-workflow-basic/git-push-1.png
 "pushing new branch to remote")
 
 The next step is to create a draft PR *(Pull Request)* **after you’ve created
@@ -81,7 +86,7 @@ Making sure to use the template to provide a professional description
 actual work in the PR, let’s create a PR using the **master** branch as the
 **base**.
 
-![github draft PR](../assets/images/git-workflow-basic/github-draft-pr.gif
+![github draft PR](../../.gitbook/assets/git-workflow-basic/github-draft-pr.gif
 "github draft PR")
 
 ## We have lift off
@@ -90,10 +95,11 @@ And just like that we’re ready to make some awesome software. Committing and
 pushing our code regularly are the habits worth having. Before we know it,
 we’ll be ready to take the PR out of draft mode.
 
-!!! Tip
-    Do your best to be a great team member by making commit messages as
-    succinct as possible. They don’t have to be elaborate, just to the
-    point.
+{% hint style="warning" %}
+Do your best to be a great team member by making commit messages as
+succinct as possible. They don’t have to be elaborate, just to the
+point.
+{% endhint %}
 
 ### One small step
 
@@ -101,15 +107,16 @@ When you feel you’ve completed the task you’ve been working on it’s time t
 update the description, take the PR out of draft mode and make it **“ready
 for review”**.
 
-![make PR ready for review](../assets/images/git-workflow-basic/github-ready-pr.png
+![make PR ready for review](../../.gitbook/assets/git-workflow-basic/github-ready-pr.png
 "Make PR ready for review")
 
 And just like that, the team will be notified of the PR and they can start
 a review and it can be merged.
 
-!!! Tip
-    Follow the team policy regarding the number of reviewers required
-    before Merging
+{% hint style="warning" %}
+Follow the team policy regarding the number of reviewers required
+before Merging
+{% endhint %}
 
 It’s really good practice to take the time to make comments in the code, even
 if they are positive notes on good work your teammate did.
@@ -121,7 +128,7 @@ to approving and merging. If there are no issues found on stage and no
 conflicts to be resolved in the code choose “Rebase and merge” or "Squash
 and merge" from the merge button and lets get onto master.
 
-![merge into master](../assets/images/git-workflow-basic/github-merge.png
+![merge into master](../../.gitbook/assets/git-workflow-basic/github-merge.png
 "Rebase and merge into master")
 
 If you find yourself with a merge conflict there are a number of ways to solve
