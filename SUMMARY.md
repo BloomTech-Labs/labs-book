@@ -5,6 +5,7 @@
 ## Engineering
 
 * [Home](engineering/home.md)
+* [Standards](engineering/standards.md)
 * [Guides](engineering/guides/README.md)
   * [Writing Standards](engineering/guides/writing-standards.md)
 
