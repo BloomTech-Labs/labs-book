@@ -45,7 +45,3 @@ the dropdown, and clicking on `create new Pipeline`
 - `Destroy stale review apps automatically` - set to preferred time frame
 
 ![config pipeline](https://tk-assets.lambdaschool.com/0f2e4a39-c47d-4a07-baaf-c19d12e68ff5_ScreenShot2020-05-07at3.57.09PM.png)
-
-### References
-
-For more information about setting up Review Apps on Heroku click [here](https://devcenter.heroku.com/articles/github-integration-review-apps#configuration)
