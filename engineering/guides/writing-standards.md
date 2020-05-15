@@ -4,7 +4,7 @@
 If you add, remove or change the name of a topic document, be sure to update the `mkdocs.yml` file `Topics` section
 {% endhint %}
 
-### Format[¶](https://lambda-school-labs.github.io/labs-guides/topics/writing-standards/#format) <a id="format"></a>
+### Format <a id="format"></a>
 
 Each guide will follow the following template:
 
@@ -32,22 +32,22 @@ summary statement
   - ...
 ```
 
-#### Title[¶](https://lambda-school-labs.github.io/labs-guides/topics/writing-standards/#title) <a id="title"></a>
+#### Title <a id="title"></a>
 
 A short and descriptive title to refer to the topic covered in guide
 
-#### Guide Objective[¶](https://lambda-school-labs.github.io/labs-guides/topics/writing-standards/#guide-objective) <a id="guide-objective"></a>
+#### Guide Objective <a id="guide-objective"></a>
 
 A simple, clear overview of what the reader should gain by reading the guide.
 
 * Summary of what the guide intends to cover.
 * a brief list of technologies the guide focuses on
 
-#### Chapters[¶](https://lambda-school-labs.github.io/labs-guides/topics/writing-standards/#chapters) <a id="chapters"></a>
+#### Chapters <a id="chapters"></a>
 
 One or more chapters for walking the user through steps to completion.
 
-### Linting[¶](https://lambda-school-labs.github.io/labs-guides/topics/writing-standards/#linting) <a id="linting"></a>
+### Linting <a id="linting"></a>
 
 All submissions must be linted using [markdownlint by David Anson](https://github.com/DavidAnson/markdownlint)
 
