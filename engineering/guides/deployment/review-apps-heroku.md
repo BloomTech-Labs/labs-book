@@ -19,10 +19,10 @@ In summary, this guide will help you have
 a better understanding of what Review Apps on Heroku
 does and how to set it up for your Github repo.
 
-### Technologies Discussed
+### References
 
-- Heroku
-- Review Apps Pipeline
+- [Heroku](https://heroku.com)
+- [Review Apps Pipeline](https://devcenter.heroku.com/articles/github-integration-review-apps)
 
 ### Setting Up Review Apps Steps
 
