@@ -2,5 +2,8 @@
 description: Welcome to the Lambda Labs resource center
 ---
 
-# Welcome
+# Welcome to the Labs Book
+
+Here we'll guide you through everything you need to know about Lambda School Labs.
+
 
