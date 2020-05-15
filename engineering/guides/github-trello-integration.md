@@ -20,35 +20,37 @@ within Trello.
     Use GitHub Power-Up for Trello for attaching pull requests, issues,
     branches, and more to respective cards.
 
-!!! Note
-    Color coded to identify status of the PR such as open, merged, failed checks.
+{% hint style="info" %}
+Color coded to identify status of the PR such as open, merged, failed checks.
+{% endhint %}
 
-!!! Note
-    You can also associate multiple repositories to one board.
-    This is useful in a case where you are working on both frontend and backend
-     from the same board.
+{% hint style="info" %}
+You can also associate multiple repositories to one board.
+This is useful in a case where you are working on both frontend and backend
+from the same board.
+{% endhint %}
 
 ### Add Github Power-Up to your Trello board
 
-![Github Powerup on Trello](../assets/images/github-trello/add-github-powerup.png "Github Power-up")
+![Github Powerup on Trello](../../assets/images/github-trello/add-github-powerup.png "Github Power-up")
 
 ### Add repository
 
-![Add repo](../assets/images/github-trello/add-repo.png "Add Repository")
+![Add repo](../../assets/images/github-trello/add-repo.png "Add Repository")
 
 ### Attach your Pull Request to Trello card
 
-![Attach Pull Request](../assets/images/github-trello/attach-pr.png "Attach Pull Request")
+![Attach Pull Request](../../assets/images/github-trello/attach-pr.png "Attach Pull Request")
 
 - PR now shows on the card. Color coded to show status of pull request
 
-![PR View](../assets/images/github-trello/pr-view.png "PR View on Trello")
+![PR View](../../assets/images/github-trello/pr-view.png "PR View on Trello")
 
 - A comment linking back to Trello will be automatically added to your PR
 
-![Comment link](../assets/images/github-trello/comments-links.png "Comment links")
+![Comment link](../../assets/images/github-trello/comments-links.png "Comment links")
 
-![PR Status](../assets/images/github-trello/pr-status.png "PR Status")
+![PR Status](../../assets/images/github-trello/pr-status.png "PR Status")
 
 ## Conclusion
 
