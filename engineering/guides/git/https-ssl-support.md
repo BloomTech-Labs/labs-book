@@ -1,4 +1,4 @@
-# HTTPS/SSL Support
+# Add SSL using Cloudflare
 
 Heroku does not offer https be default for free tier dynos with custom domains.
 One way around this is to utilize Cloudflare as a "proxy" between your domain's
@@ -24,6 +24,8 @@ connecting it to your custom Heroku domain.
 [What is SSL?](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 
 [What is Cloudflare?](https://www.cloudflare.com/learning/what-is-cloudflare/)
+
+---
 
 ## Getting Started
 
